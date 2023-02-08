@@ -21,7 +21,7 @@ var connection = mysql.createConnection({
     database: "employees_db"
   });
 
-  figlet('FSC Employee Tracker', (err, result) => {
+  figlet('Employee Tracker', (err, result) => {
     console.log(err || result);
   });
 
@@ -57,7 +57,7 @@ var connection = mysql.createConnection({
           deleteSomething();
         }
         else if (answer.choices === "EXIT") {
-          figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+          figlet('Thanks for using Employee Tracker', (err, result) => {
             console.log(err || result);
           });
         
@@ -123,7 +123,7 @@ addSomething = () => {
       addEmployee();
     } 
     else if (answer.add === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
@@ -166,12 +166,12 @@ addRole = () => {
     {
       name: "salary",
       type: "input",
-      message: "What is the salary for this possition?"
+      message: "What is the salary for this position?"
     },
     {
       name: "department_id",
       type: "list",
-      message: "What is the department for this possition?",
+      message: "What is the department for this position?",
       choices: departmentOptions
     },
   ]).then(function(answer) {
@@ -278,7 +278,7 @@ viewSomething = () => {
       viewEmployees();
     }
     else if (answer.viewChoice === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
@@ -491,7 +491,7 @@ deleteSomething = () => {
     else if (answer.delete === "Delete employee") {
       deleteEmployee();
     } else if(answer.delete === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 

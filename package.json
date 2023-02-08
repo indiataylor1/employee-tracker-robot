@@ -8,14 +8,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/hoffman1200/Homework-12.git"
+      "url": "git+https://github.com/indiataylor1/employee-tracker-robot.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/hoffman1200/Homework-12/issues"
+      "url": "https://github.com/indiataylor1/employee-tracker-robot/issues"
     },
-    "homepage": "https://github.com/hoffman1200/Homework-12#readme",
+    "homepage": "https://github.com/indiataylor1/employee-tracker-robot#readme",
     "dependencies": {
       "console-table-printer": "^1.6.3",
       "figlet": "^1.4.0",
