@@ -2,19 +2,18 @@
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+5. [Walkthrough Video Link](#walkthrough-video-link)
 ### General Info
 ***
 This assignment is a content management system (CMS) interface. This is a command line application and aims to manage a company's employee database, using Node.js, Inquirer and MySQL.
 ### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+![Screenshot (42)](https://user-images.githubusercontent.com/116799866/217942853-11828f90-5fa0-41a8-bc66-9ff153f54310.png)
 ## Technologies
 ***
 A list of technologies used within the project:
 * [Inquirer]: Version 9.1.4
 * [Node.js]: Version 18.8.0
-* [MySQL]:
+* [MySQL]: Version 2
 ## Installation
 ***
 *Clone the main project, then open the cloned file.
@@ -31,31 +30,7 @@ A list of technologies used within the project:
 *source db/seeds.sql
 *Install the required packages using: 'npm i'
 *Call the application using: node app
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-## Collaboration
+## Walkthrough Video Link
 ***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> Should it encompass several lines?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer to the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question, we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer to the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+https://drive.google.com/file/d/1sXhx8iMJ7k_1dXgx40_kacz_QM6-Utmh/view
+
