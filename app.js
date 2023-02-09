@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const inquirer = require('inquirer');
 const { printTable } = require('console-table-printer');
 const figlet = require('figlet');
@@ -17,7 +17,7 @@ var connection = mysql.createConnection({
     user: "root",
   
     // Your password
-    password: "P@ssw0rd",
+    password: "StinkyBishop1",  // tried to make password an empty string 
     database: "employees_db"
   });
 
